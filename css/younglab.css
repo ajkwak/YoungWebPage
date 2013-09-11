@@ -1,0 +1,115 @@
+@CHARSET "ISO-8859-1"; 
+
+address {
+  margin-top: 40px;
+  font-style: courier, monospace;
+  font-size: 70%;
+  text-align: center;
+}
+
+body {
+  background-color:#ffbbbb;
+}
+
+figcaption {
+  font-size:70%;
+  font-family:ariel, sans-serif;
+  color:#555555
+}
+
+h1 { /*UQM-style header*/
+	color: #0000AA;
+	text-align: center;
+	font-weight: bold;
+	font-family: verdana, arial, sans-serif;
+}
+
+h3 {
+  color: black;
+  font-family: impact, arial, sans-serif;
+  font-size: 150%;
+  font-style: normal;
+  padding: 0px;
+  margin: 0px;
+}
+
+p {/* correponds with <p> HTML tag (does attributes for aforesaid)*/
+  color: black;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-style: normal;
+}
+
+ul.tabbed {
+  list-style-type:none;
+}
+
+li.tabbed {
+  padding-bottom:15px;
+}
+
+img.centered-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.details {
+  color: #555555;
+  font-size: 80%;
+  font-family: 
+}
+
+/* Navigation Bar */
+
+div.navbar {
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+ul.navbar {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+
+li.navbar {
+  float:left;
+  border-style:inset;
+  border-width:medium
+  border-color:#BBBBBB;
+}
+
+a.navbar:link, a.navbar:visited {
+  display:block;
+  height:35px;
+  font-size:150%;
+  font-weight:bold;
+  color:#000000;
+  background-color:#FFFFFF;
+  text-align:center;
+  padding:4px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+a.navbar:hover, a.navbar:active {
+  color:#FFFFFF;
+  background-color:#000000;
+}
+
+.home_icon:before {
+  content:url(../imgs/home_icon.bmp);
+}
+
+.people_icon:before {
+  content:url(../imgs/people_icon.bmp);
+}
+
+.publications_icon:before {
+  content:url(../imgs/publications_icon.bmp);
+}
+
+.barrett_icon:before {
+  content:url(../imgs/barrett_icon.bmp);
+}
