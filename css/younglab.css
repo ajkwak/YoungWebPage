@@ -17,7 +17,7 @@ figcaption {
   color:#555555
 }
 
-h1 { /*UQM-style header*/
+h1 { 
 	color: #0000AA;
 	text-align: center;
 	font-weight: bold;
@@ -33,7 +33,7 @@ h3 {
   margin: 0px;
 }
 
-p {/* correponds with <p> HTML tag (does attributes for aforesaid)*/
+p {
   color: black;
   font-family: "Times New Roman", Georgia, Serif;
   font-style: normal;
@@ -51,6 +51,11 @@ img.centered-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+img.thumbnail {
+  width: 75px;
+  height: auto;
 }
 
 .details {
@@ -112,4 +117,16 @@ a.navbar:hover, a.navbar:active {
 
 .barrett_icon:before {
   content:url(../imgs/barrett_icon.bmp);
+}
+
+/* Left-Hand Side Bar */
+#left_hand_content {
+  border-right: 5px solid black;
+  width: 80px;
+  float: left;
+}
+
+#main_content {
+  /* float: left; */
+  margin: 0 0 0 88px;
 }
