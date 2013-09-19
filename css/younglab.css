@@ -58,6 +58,11 @@ img.thumbnail {
   height: auto;
 }
 
+img.standard_size {
+  width: 152px;
+  height: auto;
+}
+
 .details {
   color: #555555;
   font-size: 80%;
